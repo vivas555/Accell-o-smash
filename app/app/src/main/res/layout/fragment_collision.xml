@@ -1,0 +1,30 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sensors.philippe.sensorstest.Vue.FragmentCollision">
+
+    <TextView
+        android:id="@+id/tv_collisionDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/activity_text_size"
+        android:text="@string/collisionFrag_collisionDate"/>
+
+    <TextView
+        android:id="@+id/tv_collisionStrength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/activity_text_size"
+        android:text="@string/collisionFrag_collisionStrength"/>
+
+    <TextView
+        android:id="@+id/tv_urgencyCalled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/activity_text_size"
+        android:text="@string/collisionFrag_collisionEmergency"/>
+
+</LinearLayout>

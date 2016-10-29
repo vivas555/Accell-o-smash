@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/llayout_flashing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:background="#b71c1c"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".Vue.MainActivity">
+
+        <TextView
+            android:id="@+id/tv_alertText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="@dimen/activity_text_alertSize"
+            android:textColor="@color/alertSecondColor"
+            android:text="@string/alert_alertText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/alertSquare_marginLeftRight"
+            android:layout_marginRight="@dimen/alertSquare_marginLeftRight"
+            android:layout_marginTop="@dimen/alertSquare_marginTop"
+            android:layout_marginBottom="@dimen/alertSquare_marginBottom"
+            android:background="@drawable/border"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context=".Vue.MainActivity">
+
+            <TextView
+                android:id="@+id/tv_timer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="@dimen/activity_text_alertSize"
+                android:textColor="@color/cancel"
+                tools:text="30" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fabCallNow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:backgroundTint="@color/callNowBtn"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="32dp"
+                android:scaleX="2"
+                android:scaleY="2"
+                app:borderWidth="0dp"
+                android:onClick="onClickCallNowBtn"/>
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_gravity="end"
+                android:text="@string/inscription_cancelBtnText"
+                android:textSize="@dimen/activity_text_size"
+                android:onClick="onClickCancelBtn"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

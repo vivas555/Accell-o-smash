@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="inscription_returnBtnText">Retour</string>
+    <string name="inscription_IDEtText">Identifiant:</string>
+    <string name="inscription_passwordEtText">Mot de passe:</string>
+    <string name="inscription_nameEtText">Nom:</string>
+    <string name="inscription_firstNameEtText">Prénom:</string>
+    <string name="inscription_weightEtText">Poids en Kg:</string>
+    <string name="inscription_phoneNumberEtText">Numéro de téléphone d\'urgence:</string>
+    <string name="inscription_confirmBtnText">Confirmer</string>
+    <string name="inscription_cancelBtnText">Annuler</string>
+    <string name="inscription_invalidInscriptionToast">Invalid inscription</string>
+    <string name="seatbelt_always_on">Ceinture de sécurité toujours attachée</string>
+
+    <string name="main_registerBtnText">S\'inscrire</string>
+    <string name="main_connectionBtnText_notConnected">Se connecter</string>
+    <string name="main_connectionBtnText_connected">Déconnexion</string>
+    <string name="main_idText_notConnected">Non connecter</string>
+    <string name="main_btnMyCollisions_text">Mes collisions</string>
+
+    <string name="collisionFrag_collisionDate">Date:</string>
+    <string name="collisionFrag_collisionStrength">Force:</string>
+    <string name="collisionFrag_collisionEmergency">Services d\'urgences appelés:</string>
+    <string name="collisionOwner">Victime: </string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+
+    <string name="alert_alertText">Alerte</string>
+    <string name="alert_callingNow">Appel maintenant!</string>
+
+    <string name="invalidAccountToast">Ce compte utilisateur est invalide</string>
+
+</resources>

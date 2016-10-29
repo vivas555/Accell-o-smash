@@ -1,0 +1,5 @@
+rootProject.name = 'tp3'
+include 'tp3-core'
+include 'tp3-database'
+include 'tp3-server'
+

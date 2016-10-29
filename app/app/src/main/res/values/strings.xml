@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Accelerometer</string>
+
+    <string name="inscription_returnBtnText">Return</string>
+    <string name="inscription_IDEtText">Identifier:</string>
+    <string name="inscription_passwordEtText">Password:</string>
+    <string name="inscription_nameEtText">Name:</string>
+    <string name="inscription_firstNameEtText">First name:</string>
+    <string name="inscription_weightEtText">Weight in Kg:</string>
+    <string name="inscription_phoneNumberEtText">Emergency phone number:</string>
+    <string name="inscription_confirmBtnText">Confirm</string>
+    <string name="inscription_cancelBtnText">Cancel</string>
+    <string name="seatbelt_always_on">Seatbelt always on</string>
+    <string name="inscription_invalidInscriptionToast">Invalid inscription</string>
+
+    <string name="main_registerBtnText">Register</string>
+    <string name="main_connectionBtnText_notConnected">Log in</string>
+    <string name="main_connectionBtnText_connected">Disconnect</string>
+    <string name="main_idText_notConnected">Not connected</string>
+    <string name="main_btnMyCollisions_text">My collisions</string>
+
+    <string name="collisionFrag_collisionDate">Date:</string>
+    <string name="collisionFrag_collisionStrength">Strength:</string>
+    <string name="collisionFrag_collisionEmergency">Emergency called:</string>
+    <string name="collisionFrag_collisionOwner">Victim: </string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="alert_alertText">Warning</string>
+    <string name="alert_callingNow">Calling now!</string>
+
+    <string name="invalidAccountToast">Account is invalid</string>
+
+</resources>
