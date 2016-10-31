@@ -2,7 +2,7 @@ package ca.csf.tp3.controllers;
 
 import ca.csf.tp3.*;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
+import org.eclipse.jetty.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -57,14 +57,14 @@ public class AcceleroSmashController {
 //    }
 
     @ExceptionHandler(NotFoundRepositoryException.class)
-    @ResponseStatus(HttpStatus.NOT_FOUND)
+   // @ResponseStatus(HttpStatus.NOT_FOUND)
     public void onNotFound(NotFoundRepositoryException e) {
         //TODO : Ici, on attrape les expcetion du modèle et on les gère. Dans ce cas, le code de retour est "404" et on imprime l'exception dans la console.
         e.printStackTrace();
     }
 
     @ExceptionHandler(CriticalRepositoryException.class)
-    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+   // @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     public void onCriticalError(CriticalRepositoryException e) {
         //TODO : Normalement, on devrait jamais arriver ici, mais si cela arrive, alors on lance imprime la stack trace
         e.printStackTrace();
